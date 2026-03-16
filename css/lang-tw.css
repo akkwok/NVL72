@@ -1,0 +1,17 @@
+/**
+ * Foundation for Sites by ZURB
+ * Version 6.4.3
+ * foundation.zurb.com
+ * Licensed under MIT Open Source
+ */
+body * {
+  font-family: 'Microsoft JhengHei', 'Myriad W08 Regular', Segoe UI, 'Noto Sans TC', sans-serif; }
+
+.hd_contact {
+  min-width: 7.5rem; }
+
+.content-product .content_center a.mailto {
+  text-align: center;
+  line-height: 1.2; }
+  .content-product .content_center a.mailto span {
+    margin-left: 0; }
