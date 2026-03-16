@@ -1,0 +1,357 @@
+#AX58-width-full a.btn_toggle:focus {
+    color: #daae71;
+}
+
+#AX58-width-full a.btn_toggle {
+    background: #608ffe;
+    width: 30px;
+    height: 30px;
+    display: inline-block;
+    /* margin-block-end: 0.5rem; */
+    padding: 0.5em;
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
+    z-index: 1;
+    border-radius: 50%;
+}
+
+#AX58-width-full a.btn_toggle:after {
+    content: '';
+    width: 0.3em;
+    height: 0.875em;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin-left: -0.5em;
+}
+
+#AX58-width-full a.btn_toggle:before {
+    content: '';
+    width: 0.3em;
+    height: 0.875em;
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    left: 65%;
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#AX58-width-full a.btn_play:before {
+    content: '';
+    display: block;
+    width: 0;
+    height: 0;
+    background: none;
+    border-style: solid;
+    border-width: 0.5em 0 0.5em 0.75em;
+    border-color: transparent transparent transparent #fff;
+    position: absolute;
+    top: 50%;
+    left: 55%;
+    -moz-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+}
+
+#AX58-width-full a.btn_play:after {
+    display: none;
+}
+
+#AX58-width-full a.btn_play {
+    background: #608ffe;
+}
+
+#AX58-width-full .explosion_area img.explosion_img {
+    opacity: 0;
+    animation-iteration-count: infinite !important;
+    animation-direction: alternate !important;
+}
+
+#AX58-width-full .explosion_area img.explosion_img_a {
+    opacity: 1;
+}
+
+#AX58-width-full .explosion_animation_top {
+    /*position: relative;*/
+    animation: 4s ease explosion_animation_top;
+}
+
+@-moz-keyframes explosion_animation_top {
+
+    0%,
+    15% {
+        opacity: 1;
+        top: -1px
+    }
+
+    35%,
+    100% {
+        opacity: 0;
+        top: -5%
+    }
+}
+
+@-webkit-keyframes explosion_animation_top {
+
+    0%,
+    15% {
+        opacity: 1;
+        top: -1px
+    }
+
+    35%,
+    100% {
+        opacity: 0;
+        top: -5%
+    }
+}
+
+@-o-keyframes explosion_animation_top {
+
+    0%,
+    15% {
+        opacity: 1;
+        top: -1px
+    }
+
+    35%,
+    100% {
+        opacity: 0;
+        top: -5%
+    }
+}
+
+@-ms-keyframes explosion_animation_top {
+
+    0%,
+    15% {
+        opacity: 1;
+        top: -1px
+    }
+
+    35%,
+    100% {
+        opacity: 0;
+        top: -5%
+    }
+}
+
+@keyframes explosion_animation_top {
+
+    0%,
+    15% {
+        opacity: 1;
+        top: -1px
+    }
+
+    35%,
+    100% {
+        opacity: 0;
+        top: -5%
+    }
+}
+
+/**/
+#ESC8000-G4-warp .explosion_animation_object_a {
+    /*position: relative;*/
+    animation: 4s ease explosion_animation_object_a;
+}
+
+@-moz-keyframes explosion_animation_object_a {
+
+    0%,
+    40% {
+        opacity: 0;
+        top: 8%;
+        left: 6%;
+        width: 90%
+    }
+
+    61%,
+    100% {
+        opacity: 1;
+        top: 0%;
+        left: 0%;
+        width: 100%
+    }
+}
+
+@-webkit-keyframes explosion_animation_object_a {
+
+    0%,
+    40% {
+        opacity: 0;
+        top: 8%;
+        left: 6%;
+        width: 90%
+    }
+
+    61%,
+    100% {
+        opacity: 1;
+        top: 0%;
+        left: 0%;
+        width: 100%
+    }
+}
+
+@-o-keyframes explosion_animation_object_a {
+
+    0%,
+    40% {
+        opacity: 0;
+        top: 8%;
+        left: 6%;
+        width: 90%
+    }
+
+    61%,
+    100% {
+        opacity: 1;
+        top: 0%;
+        left: 0%;
+        width: 100%
+    }
+}
+
+@-ms-keyframes explosion_animation_object_a {
+
+    0%,
+    40% {
+        opacity: 0;
+        top: 8%;
+        left: 6%;
+        width: 90%
+    }
+
+    61%,
+    100% {
+        opacity: 1;
+        top: 0%;
+        left: 0%;
+        width: 100%
+    }
+}
+
+@keyframes explosion_animation_object_a {
+
+    0%,
+    40% {
+        opacity: 0;
+        top: 8%;
+        left: 6%;
+        width: 90%
+    }
+
+    61%,
+    100% {
+        opacity: 1;
+        top: 0%;
+        left: 0%;
+        width: 100%
+    }
+}
+
+/**/
+#ESC8000-G4-warp .explosion_animation_object_b {
+    /*position: relative;*/
+    animation: 4s ease explosion_animation_object_b;
+}
+
+@-moz-keyframes explosion_animation_object_b {
+
+    0%,
+    40% {
+        opacity: 0;
+        top: -8%;
+        left: 4%;
+    }
+
+    61%,
+    100% {
+        opacity: 1;
+        top: 0%;
+        left: 0%;
+    }
+}
+
+@-webkit-keyframes explosion_animation_object_b {
+
+    0%,
+    40% {
+        opacity: 0;
+        top: -8%;
+        left: 4%;
+    }
+
+    61%,
+    100% {
+        opacity: 1;
+        top: 0%;
+        left: 0%;
+    }
+}
+
+@-o-keyframes explosion_animation_object_b {
+
+    0%,
+    40% {
+        opacity: 0;
+        top: -8%;
+        left: 4%;
+    }
+
+    61%,
+    100% {
+        opacity: 1;
+        top: 0%;
+        left: 0%;
+    }
+}
+
+@-ms-keyframes explosion_animation_object_b {
+
+    0%,
+    40% {
+        opacity: 0;
+        top: -8%;
+        left: 4%;
+    }
+
+    61%,
+    100% {
+        opacity: 1;
+        top: 0%;
+        left: 0%;
+    }
+}
+
+@keyframes explosion_animation_object_b {
+
+    0%,
+    40% {
+        opacity: 0;
+        top: -8%;
+        left: 4%;
+    }
+
+    61%,
+    100% {
+        opacity: 1;
+        top: 0%;
+        left: 0%;
+    }
+}

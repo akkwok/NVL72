@@ -1,0 +1,161 @@
+header{
+	font-family: 'Myriad W08 Regular', Segoe UI, 'Open Sans', sans-serif;
+}
+header.box-shadow5 .h4 {
+    font-size: .9375rem;
+    font-weight: 600;
+    padding: .5rem 0;
+}
+header.box-shadow5 .h4 {
+    line-height: 100%;
+}
+.ls1 {
+    letter-spacing: 1px;
+}
+header .header-center__pagelink .hd_link {
+    font-size: .9375rem;
+    padding: 1.5rem .625rem;
+    margin: 0 1.5625rem;
+    color: #000;
+    position: relative;
+    overflow: hidden;
+    display: block;
+    margin: 0 .625rem;
+}
+.hd_page_content .grid-x .hd_page_title_name {
+    margin-bottom: 0.9375rem;
+}
+.hd_page_content .grid-x .hd_page_pagename a{
+	width: 100%;
+    display: block;
+    padding-left: 1.5625rem;
+    padding-bottom: .625rem;
+    font-size: .975rem;
+}
+
+footer .footertop .asuslogobox .hd-title h4, footer .footertop .asuslogobox .hd-title .h4 {
+    color: #fff;
+}
+.asuslogobox .hd-title h4, .asuslogobox .hd-title .h4 {
+    font-size: 0.9375rem;
+    font-weight: 600;
+    padding: 0.5rem 0;
+    margin-bottom: 0;
+}
+
+.ft_followbox_email input[type="email"] {
+  color: #000; /* 輸入時的文字 */
+}
+
+.ft_followbox_email input::placeholder {
+  color: #000; /* placeholder（提示字） */
+  opacity: 1;  /* 有些瀏覽器預設透明 */
+}
+footer .footerbottom .content_center .ftb_center {
+    -webkit-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+footer .grid-x {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: horizontal;
+    -webkit-box-direction: normal;
+    -ms-flex-flow: row wrap;
+    flex-flow: row wrap;
+}
+footer .footerbottom .content_center .ftb_center .cell_a {
+    width: 26%;
+}
+footer .footerbottom .content_center .ftb_center .cell_b {
+    width: 33%;
+}
+footer .footerbottom .content_center .ftb_center .cell_c {
+    width: 40%;
+}
+footer .privacy_terms {
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    color: #6e6e6e;
+}
+@media screen and (max-width: 89.9375em) {
+    footer .footerbottom .content_center .ftb_center .cell_b {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 89.9375em) {
+    footer .footerbottom .content_center .ftb_center .cell_a {
+        width: auto;
+    }
+}
+
+@media screen and (max-width: 89.9375em) {
+    footer .footerbottom .content_center .ftb_center {
+        -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+        justify-content: space-between;
+    }
+}
+@media screen and (max-width: 74.9988em) {
+    .hd_page_content {
+        position: relative;
+        top: 0;
+    }
+}
+@media screen and (max-width: 63.9988em) {
+    footer .footertop .content_center .ft_logobox .asuslogobox .hd-title h4, footer .footertop .content_center .ft_logobox .asuslogobox .hd-title h6, footer .footertop .content_center .ft_logobox .asuslogobox .hd-title .h4, footer .footertop .content_center .ft_logobox .asuslogobox .hd-title .h6 {
+        text-align: center;
+    }
+}
+@media screen and (max-width: 63.9988em) {
+    footer .footerbottom .content_center .ftb_center .cell_b {
+        width: 100%;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 63.9988em) {
+    footer .footerbottom .content_center .ftb_center .cell_a {
+        width: 100%;
+        margin: 10px auto;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 63.9988em) {
+    footer .privacy_terms {
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+        margin-top: 1.25rem;
+    }
+}
+@media screen and (max-width: 63.9988em) {
+    .hd_page_content .grid-x .hd_page_pagename a {
+        padding-left: 0;
+    }
+}
+@media screen and (max-width: 63.9988em) {
+    .hd_page_content .grid-x .hd_page_pagename {
+        background-color: #f7f7f7;
+    }
+}
+@media screen and (max-width: 63.9988em) {
+    .content_center {
+        width: calc(100% - 30px);
+    }
+}
+@media print, screen and (min-width: 40em) {
+	header .hd_page_content .h4 {
+        font-size: 1.5625rem;
+        font-weight: 400;
+    }
+}
